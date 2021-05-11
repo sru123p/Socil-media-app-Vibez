@@ -12,7 +12,7 @@ import UserProfile from './components/screens/otheruserprofile/final'
 import SubscribedUserPosts from './components/screens/followingpost/finalfollowingpost'
 import Reset from './components/screens/Reset'
 import NewPassword from './components/screens/Newpassword'
-// import Message from './components/message/message'
+import Notfound from './components/screens/notfount'
 
 import Homefinal from './components/screens/home/finalhome'
 export const UserContext = createContext()
@@ -59,9 +59,9 @@ const Routing = ()=>{
       <Route path="/reset/:token">
         <NewPassword />
       </Route>
-      {/* <Route path="/message">
-        <Message />
-      </Route> */}
+      <Route>
+        <Notfound />
+      </Route>
     </Switch>
   )
 }
