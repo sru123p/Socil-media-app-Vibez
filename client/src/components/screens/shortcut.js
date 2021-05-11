@@ -35,12 +35,12 @@ const Shortcut = () => {
                   My followings Post
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <i class="ti-comments-smiley"></i>
                 <a href="/message" title="">
                   Messages
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <i class="ti-bell"></i>
                 <a href="/notification" title="">
