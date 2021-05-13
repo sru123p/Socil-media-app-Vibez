@@ -133,7 +133,7 @@ const Profile  = ()=>{
                         <i class="fa fa-camera-retro"></i>
                         <label class="fileContainer">
                           Edit Display Photo
-                          <input type="file" onChange={(e)=>updatePhoto(e.target.files[1])} />
+                          <input type="file" onChange={(e)=>updatePhoto(e.target.files[0])} />
                         </label>
                       </form>
                     </figure>
